@@ -1,0 +1,361 @@
+level,domain,goal,tool,url
+DOMAIN,INGEST,,,
+GOAL,INGEST,Ingest Tech,,
+TOOL,INGEST,Ingest Tech,Airbyte,https://airbyte.com/
+TOOL,INGEST,Ingest Tech,Amazon Kinesis,https://aws.amazon.com/kinesis/
+TOOL,INGEST,Ingest Tech,Apache,https://flume.apache.org/
+TOOL,INGEST,Ingest Tech,Apache Beam,https://beam.apache.org/
+TOOL,INGEST,Ingest Tech,Apache Flink,https://flink.apache.org/
+TOOL,INGEST,Ingest Tech,Apache Kafka,https://kafka.apache.org/
+TOOL,INGEST,Ingest Tech,Apache NiFi,https://nifi.apache.org/
+TOOL,INGEST,Ingest Tech,Apache Pulsar,https://pulsar.apache.org
+TOOL,INGEST,Ingest Tech,Apache Spark,https://spark.apache.org/streaming/
+TOOL,INGEST,Ingest Tech,Apache Storm,https://storm.apache.org/
+TOOL,INGEST,Ingest Tech,Confluent,https://www.confluent.io/
+TOOL,INGEST,Ingest Tech,Decodable,https://www.decodable.co/
+TOOL,INGEST,Ingest Tech,G,https://cloud.google.com/pubsub
+TOOL,INGEST,Ingest Tech,Github,https://github.com/meltano
+TOOL,INGEST,Ingest Tech,Google Cloud Pub/Sub,https://cloud.google.com/pubsub
+TOOL,INGEST,Ingest Tech,Informatica,https://www.informatica.com/
+TOOL,INGEST,Ingest Tech,Kaskada,https://kaskada.com/
+TOOL,INGEST,Ingest Tech,Materialize,https://materialize.com/docs/ingest-data/
+TOOL,INGEST,Ingest Tech,Memphis,https://docs.memphis.dev/memphis
+TOOL,INGEST,Ingest Tech,Microsoft,https://azure.microsoft.com/en-us/products/data-factory/
+TOOL,INGEST,Ingest Tech,Redpanda,https://redpanda.com/
+TOOL,INGEST,Ingest Tech,StreamNative,https://streamnative.io/
+TOOL,INGEST,Ingest Tech,Striim,https://www.striim.com/
+TOOL,INGEST,Ingest Tech,Upsolver,https://www.upsolver.com/
+TOOL,INGEST,Ingest Tech,WarpStream,https://www.warpstream.com/
+GOAL,INGEST,Ingest SaaS,,
+TOOL,INGEST,Ingest SaaS,Airbyte,https://airbyte.com/
+TOOL,INGEST,Ingest SaaS,Dataddo,https://www.dataddo.com/
+TOOL,INGEST,Ingest SaaS,Estuary,https://estuary.dev/
+TOOL,INGEST,Ingest SaaS,Fivetran,https://fivetran.com/
+TOOL,INGEST,Ingest SaaS,Hevo Data,https://hevodata.com/
+TOOL,INGEST,Ingest SaaS,Integrate.io,https://www.integrate.io/
+TOOL,INGEST,Ingest SaaS,Keboola,https://www.keboola.com/
+TOOL,INGEST,Ingest SaaS,Matillion,https://www.matillion.com/
+TOOL,INGEST,Ingest SaaS,Polytomic,https://www.polytomic.com/
+TOOL,INGEST,Ingest SaaS,Portable,https://portable.io/
+TOOL,INGEST,Ingest SaaS,Rivery,https://rivery.io/
+TOOL,INGEST,Ingest SaaS,RudderStack,https://www.rudderstack.com/
+TOOL,INGEST,Ingest SaaS,Segment,https://segment.com/
+TOOL,INGEST,Ingest SaaS,Snowplow,https://snowplow.io/
+TOOL,INGEST,Ingest SaaS,Trocco,https://global.trocco.io/
+GOAL,INGEST,Reverse ETL,,
+TOOL,INGEST,Reverse ETL,Getcensus,https://getcensus.com/
+TOOL,INGEST,Reverse ETL,Grouparoo,https://www.grouparoo.com/
+TOOL,INGEST,Reverse ETL,Headsup,https://www.headsup.ai/
+TOOL,INGEST,Reverse ETL,Hightouch,https://www.hightouch.io/
+TOOL,INGEST,Reverse ETL,Octolis,https://octolis.com/
+TOOL,INGEST,Reverse ETL,Omnata,https://omnata.com/
+TOOL,INGEST,Reverse ETL,Polytomic,https://www.polytomic.com/
+TOOL,INGEST,Reverse ETL,RudderStack,https://www.rudderstack.com/
+TOOL,INGEST,Reverse ETL,Seekwell,https://seekwell.io/
+TOOL,INGEST,Reverse ETL,Trocco,https://global.trocco.io/
+DOMAIN,DATA LAKE,,,
+GOAL,DATA LAKE,Object Storage,,
+TOOL,DATA LAKE,Object Storage,Alibaba Cloud OSS,https://www.alibabacloud.com/product/oss
+TOOL,DATA LAKE,Object Storage,Amazon S3,https://aws.amazon.com/s3/
+TOOL,DATA LAKE,Object Storage,Azure Blob Storage,https://azure.microsoft.com/products/storage/blobs/
+TOOL,DATA LAKE,Object Storage,G C,https://cloud.google.com/pubsub
+TOOL,DATA LAKE,Object Storage,Google Cloud Storage,https://cloud.google.com/storage
+TOOL,DATA LAKE,Object Storage,IBM Cloud Object Storage,https://www.ibm.com/cloud/storage
+TOOL,DATA LAKE,Object Storage,Oracle Cloud Storage,https://www.oracle.com/cloud/storage/
+GOAL,DATA LAKE,Metastores,,
+TOOL,DATA LAKE,Metastores,Apache HDFS,https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html
+GOAL,DATA LAKE,Open Table Formats,,
+TOOL,DATA LAKE,Open Table Formats,Backblaze,https://www.backblaze.com/cloud-storage
+TOOL,DATA LAKE,Open Table Formats,Ceph,https://ceph.io/ceph-storage/object-storage/
+TOOL,DATA LAKE,Metastores,Cloudfiles,https://www.cloudfiles.io/
+TOOL,DATA LAKE,Metastores,Cloudflare R2,https://www.cloudflare.com/developer-platform/r2/
+TOOL,DATA LAKE,Metastores,DigitalOcean Spaces,https://www.digitalocean.com/products/spaces/
+TOOL,DATA LAKE,Open Table Formats,Idrive,https://www.idrive.com/
+TOOL,DATA LAKE,Metastores,MinIO,https://min.io/
+TOOL,DATA LAKE,Open Table Formats,NetApp StorageGRID,https://www.netapp.com/data-storage/storagegrid/
+TOOL,DATA LAKE,Open Table Formats,Pure Storage,https://www.purestorage.com/
+TOOL,DATA LAKE,Metastores,Storj,https://www.storj.io/
+TOOL,DATA LAKE,Open Table Formats,VAST Data,https://vastdata.com/
+TOOL,DATA LAKE,Metastores,Wasabi,https://wasabi.com/
+TOOL,DATA LAKE,Metastores,Zadara,https://www.zadara.com/
+DOMAIN,DATA VERSION CONTROL,,,
+GOAL,DATA VERSION CONTROL,Object Storage,,
+TOOL,DATA VERSION CONTROL,Object Storage,DVC,https://dvc.org/
+TOOL,DATA VERSION CONTROL,Object Storage,Git-lfs,https://git-lfs.com/
+TOOL,DATA VERSION CONTROL,Object Storage,Oxen,https://www.oxen.ai/
+TOOL,DATA VERSION CONTROL,Object Storage,Pachyderm,https://www.pachyderm.com/
+TOOL,DATA VERSION CONTROL,Object Storage,Projectnessie,https://projectnessie.org/
+TOOL,DATA VERSION CONTROL,Object Storage,Quilt,https://www.quilt.bio/
+TOOL,DATA VERSION CONTROL,Object Storage,Underhive,https://underhive.ai/
+TOOL,DATA VERSION CONTROL,Object Storage,lakeFS,https://lakefs.io/
+DOMAIN,METADATA,,,
+GOAL,METADATA,Metastores,,
+TOOL,METADATA,Metastores,AWS Glue,https://aws.amazon.com/glue/
+TOOL,METADATA,Metastores,Apache Hive,https://hive.apache.org/
+TOOL,METADATA,Metastores,Azure Purview,https://azure.microsoft.com/en-us/products/purview
+TOOL,METADATA,Metastores,C,https://cloud.google.com/pubsub
+TOOL,METADATA,Metastores,Cloud Dataproc,https://cloud.google.com/blog/products/data-analytics/use-new-apache-hive-metastore-easily-in-cloud
+TOOL,METADATA,Metastores,Cloudera,https://www.cloudera.com/
+TOOL,METADATA,Metastores,Datastrato,https://datastrato.ai/gravitino/
+TOOL,METADATA,Metastores,Microsoft Purview,https://azure.microsoft.com/en-us/products/purview
+TOOL,METADATA,Metastores,Openhousedb,https://www.openhousedb.org/docs/intro/
+TOOL,METADATA,Metastores,Tabular,https://tabular.io/
+TOOL,METADATA,Metastores,Unity Catalog,https://www.databricks.com/product/unity-catalog
+GOAL,METADATA,Open Table Formats,,
+TOOL,METADATA,Open Table Formats,Apache,https://orc.apache.org/docs/acid.html
+TOOL,METADATA,Open Table Formats,Apache Hudi,https://hudi.apache.org/
+TOOL,METADATA,Open Table Formats,Apache Iceberg,https://iceberg.apache.org/
+TOOL,METADATA,Open Table Formats,Delta Lake,https://delta.io/
+TOOL,METADATA,Open Table Formats,Onehouse,https://www.onehouse.ai/
+DOMAIN,COMPUTE ENGINES,,,
+GOAL,COMPUTE ENGINES,Distributed Compute,,
+TOOL,COMPUTE ENGINES,Distributed Compute,Akka,https://akka.io/
+TOOL,COMPUTE ENGINES,Distributed Compute,Amazon EMR,https://aws.amazon.com/emr/
+TOOL,COMPUTE ENGINES,Distributed Compute,Apache Spark,https://spark.apache.org/
+TOOL,COMPUTE ENGINES,Distributed Compute,Ascend.io,https://www.ascend.io/
+TOOL,COMPUTE ENGINES,Distributed Compute,Azure HDInsight,https://azure.microsoft.com/en-us/services/hdinsight/
+TOOL,COMPUTE ENGINES,Distributed Compute,Bodo,http://www.bodo.ai
+TOOL,COMPUTE ENGINES,Distributed Compute,Cloudera,https://www.cloudera.com/
+TOOL,COMPUTE ENGINES,Distributed Compute,Dask,https://github.com/dask/dask
+TOOL,COMPUTE ENGINES,Distributed Compute,Databricks,https://www.databricks.com/
+TOOL,COMPUTE ENGINES,Distributed Compute,Google Cloud Dataproc,https://cloud.google.com/dataproc
+TOOL,COMPUTE ENGINES,Distributed Compute,Google Cloud Pub/Sub,https://cloud.google.com/pubsub
+TOOL,COMPUTE ENGINES,Distributed Compute,Google Dataflow,https://cloud.google.com/dataflow
+TOOL,COMPUTE ENGINES,Distributed Compute,MapReduce,https://hadoop.apache.org/docs/r1.2.1/mapred_tutorial.html
+TOOL,COMPUTE ENGINES,Distributed Compute,Microsoft,https://azure.microsoft.com/en-us/services/databricks/
+TOOL,COMPUTE ENGINES,Distributed Compute,Ray,https://www.ray.io/
+TOOL,COMPUTE ENGINES,Distributed Compute,Trino,https://trino.io/
+GOAL,COMPUTE ENGINES,Analytics Engines,,
+TOOL,COMPUTE ENGINES,Analytics Engines,Amazon Athena,https://aws.amazon.com/athena/
+TOOL,COMPUTE ENGINES,Analytics Engines,Amazon Redshift,https://aws.amazon.com/redshift/
+TOOL,COMPUTE ENGINES,Analytics Engines,Apache Arrow DataFusion,https://github.com/apache/arrow-datafusion
+TOOL,COMPUTE ENGINES,Analytics Engines,Apache Doris,https://doris.apache.org/
+TOOL,COMPUTE ENGINES,Analytics Engines,Apache Druid,https://druid.apache.org/
+TOOL,COMPUTE ENGINES,Analytics Engines,Apache Impala,https://impala.apache.org/overview.html
+TOOL,COMPUTE ENGINES,Analytics Engines,Apache Kylin,http://kylin.apache.org/
+TOOL,COMPUTE ENGINES,Analytics Engines,Apache Pinot,https://pinot.apache.org/
+TOOL,COMPUTE ENGINES,Analytics Engines,ClickHouse,https://clickhouse.tech/
+TOOL,COMPUTE ENGINES,Analytics Engines,Data Lakehouse,https://databricks.com/product/data-lakehouse
+TOOL,COMPUTE ENGINES,Analytics Engines,Dremio,https://www.dremio.com/
+TOOL,COMPUTE ENGINES,Analytics Engines,Firebolt,https://www.firebolt.io/
+TOOL,COMPUTE ENGINES,Analytics Engines,Google BigQuery,https://cloud.google.com/bigquery
+TOOL,COMPUTE ENGINES,Analytics Engines,Hazelcast,https://hazelcast.com/
+TOOL,COMPUTE ENGINES,Analytics Engines,Hydra,https://hydra.so/
+TOOL,COMPUTE ENGINES,Analytics Engines,Imply,https://imply.io/
+TOOL,COMPUTE ENGINES,Analytics Engines,Kx,https://kx.com/
+TOOL,COMPUTE ENGINES,Analytics Engines,LakeSoul,https://lakesoul-io.github.io/
+TOOL,COMPUTE ENGINES,Analytics Engines,Materialize,https://materialize.com/
+TOOL,COMPUTE ENGINES,Analytics Engines,Pentaho,https://pentaho.com/
+TOOL,COMPUTE ENGINES,Analytics Engines,Polars,https://www.pola.rs/
+TOOL,COMPUTE ENGINES,Analytics Engines,Prestodb,https://prestodb.io/
+TOOL,COMPUTE ENGINES,Analytics Engines,Qubole,https://www.qubole.com/
+TOOL,COMPUTE ENGINES,Analytics Engines,QuestDB,https://questdb.io/
+TOOL,COMPUTE ENGINES,Analytics Engines,Redis,https://redis.io/
+TOOL,COMPUTE ENGINES,Analytics Engines,Rockset,https://www.linkedin.com/company/rocksetcloud/
+TOOL,COMPUTE ENGINES,Analytics Engines,SingleStore,https://www.singlestore.com/
+TOOL,COMPUTE ENGINES,Analytics Engines,Snowflake,https://www.snowflake.com/
+TOOL,COMPUTE ENGINES,Analytics Engines,StarRocks,https://www.starrocks.io/
+TOOL,COMPUTE ENGINES,Analytics Engines,StarTree,https://www.startree.ai/
+TOOL,COMPUTE ENGINES,Analytics Engines,Starburst,https://www.starburst.io/
+TOOL,COMPUTE ENGINES,Analytics Engines,Trino,https://trino.io/
+TOOL,COMPUTE ENGINES,Analytics Engines,Voltron Data,https://voltrondata.com/
+TOOL,COMPUTE ENGINES,Analytics Engines,Yellowbrick,https://yellowbrick.com/
+TOOL,COMPUTE ENGINES,Analytics Engines,dbt,https://www.getdbt.com/
+DOMAIN,PIPELINES,,,
+GOAL,PIPELINES,Data Quality / Observability,,
+TOOL,PIPELINES,Data Quality / Observability,Acceldata,https://www.acceldata.io/
+TOOL,PIPELINES,Data Quality / Observability,Activeloop,https://www.activeloop.ai/
+TOOL,PIPELINES,Data Quality / Observability,Aimon,https://aimon.ai/
+TOOL,PIPELINES,Data Quality / Observability,Anomalo,https://www.anomalo.com/
+TOOL,PIPELINES,Data Quality / Observability,Apache,https://griffin.apache.org/
+TOOL,PIPELINES,Data Quality / Observability,Apache Zeppelin,https://zeppelin.apache.org/
+TOOL,PIPELINES,Data Quality / Observability,Bigeye,https://www.bigeye.com/
+TOOL,PIPELINES,Data Quality / Observability,ClickHouse,https://clickhouse.com/use-cases/machine-learning-and-data-science
+TOOL,PIPELINES,Data Quality / Observability,Cloudbank,https://www.cloudbank.org/tool/azure-notebooks
+TOOL,PIPELINES,Data Quality / Observability,Datachain,https://datachain.ai/
+TOOL,PIPELINES,Data Quality / Observability,Datafold,https://www.datafold.com/
+TOOL,PIPELINES,Data Quality / Observability,Datorios,https://datorios.com/
+TOOL,PIPELINES,Data Quality / Observability,Deepchecks,https://www.deepchecks.com/
+TOOL,PIPELINES,Data Quality / Observability,Elementary,https://www.elementary-data.com/
+TOOL,PIPELINES,Data Quality / Observability,Foundational,https://www.foundational.io/
+TOOL,PIPELINES,Data Quality / Observability,Github,https://github.com/awslabs/deequ
+TOOL,PIPELINES,Data Quality / Observability,Great Expectations,https://greatexpectations.io/
+TOOL,PIPELINES,Data Quality / Observability,Holoclean,http://www.holoclean.io/
+TOOL,PIPELINES,Data Quality / Observability,Ibm,https://www.ibm.com/products/databand
+TOOL,PIPELINES,Data Quality / Observability,Jupyter,https://jupyter.org/
+TOOL,PIPELINES,Data Quality / Observability,Kaggle,https://www.kaggle.com/code
+TOOL,PIPELINES,Data Quality / Observability,Kensu,https://www.kensu.io/
+TOOL,PIPELINES,Data Quality / Observability,Lightup,https://www.lightup.ai/
+TOOL,PIPELINES,Data Quality / Observability,Metaplane,https://www.metaplane.dev/
+TOOL,PIPELINES,Data Quality / Observability,Monte Carlo,https://www.montecarlodata.com/
+TOOL,PIPELINES,Data Quality / Observability,Pinecone,https://www.pinecone.io/
+TOOL,PIPELINES,Data Quality / Observability,Qdrant,https://qdrant.tech/
+TOOL,PIPELINES,Data Quality / Observability,Robustintelligence,https://www.robustintelligence.com/
+TOOL,PIPELINES,Data Quality / Observability,Soda,https://www.soda.io/
+TOOL,PIPELINES,Data Quality / Observability,Stack-ai,https://www.stack-ai.com/
+TOOL,PIPELINES,Data Quality / Observability,Timeseer,https://www.timeseer.ai/
+TOOL,PIPELINES,Data Quality / Observability,Truera,https://truera.com/
+TOOL,PIPELINES,Data Quality / Observability,Union,https://www.union.ai/pandera
+TOOL,PIPELINES,Data Quality / Observability,Unraveldata,https://www.unraveldata.com/
+TOOL,PIPELINES,Data Quality / Observability,Whylabs,https://whylabs.ai/
+GOAL,PIPELINES,Distributed Compute,,
+TOOL,PIPELINES,Distributed Compute,Abacus,https://abacus.ai/
+TOOL,PIPELINES,Distributed Compute,Apache,https://oozie.apache.org/
+TOOL,PIPELINES,Distributed Compute,Apache Airflow,https://airflow.apache.org/
+TOOL,PIPELINES,Distributed Compute,Astronomer,https://www.astronomer.io/
+TOOL,PIPELINES,Distributed Compute,Dagster,https://dagster.io/
+TOOL,PIPELINES,Distributed Compute,Dagworks,https://www.dagworks.io/
+TOOL,PIPELINES,Distributed Compute,Databricks,https://www.databricks.com/product/data-intelligence-platform
+TOOL,PIPELINES,Distributed Compute,Flyte,http://www.flyte.org
+TOOL,PIPELINES,Distributed Compute,Github,https://github.com/spotify/luigi
+TOOL,PIPELINES,Distributed Compute,Google,https://cloud.google.com/workflows?hl=en
+TOOL,PIPELINES,Distributed Compute,Google Vertex AI,https://cloud.google.com/vertex-ai
+TOOL,PIPELINES,Distributed Compute,H2o,https://h2o.ai/
+TOOL,PIPELINES,Distributed Compute,Kedro,https://kedro.org/
+TOOL,PIPELINES,Distributed Compute,Kestra,https://kestra.io/
+TOOL,PIPELINES,Distributed Compute,Kubeflow,https://www.kubeflow.org/docs/components/pipelines/
+TOOL,PIPELINES,Distributed Compute,Mage,https://www.mage.ai/
+TOOL,PIPELINES,Distributed Compute,Metaflow,https://metaflow.org/
+TOOL,PIPELINES,Distributed Compute,Microsoft,https://azure.microsoft.com/en-us/products/data-factory
+TOOL,PIPELINES,Distributed Compute,Mltwist,http://www.mltwist.com
+TOOL,PIPELINES,Distributed Compute,Modular,https://www.modular.com/
+TOOL,PIPELINES,Distributed Compute,Orkes,https://www.orkes.io/
+TOOL,PIPELINES,Distributed Compute,Prefect,https://www.prefect.io/
+TOOL,PIPELINES,Distributed Compute,Sematic,https://www.sematic.dev/
+TOOL,PIPELINES,Distributed Compute,Seqera,https://seqera.io/
+TOOL,PIPELINES,Distributed Compute,Shipyard,https://www.shipyardapp.com/
+TOOL,PIPELINES,Distributed Compute,Stitch,https://www.stitchdata.com/
+TOOL,PIPELINES,Distributed Compute,Union,https://www.union.ai/
+DOMAIN,PRACTITIONER APPS,,,
+GOAL,PRACTITIONER APPS,MLOps End-to-End,,
+TOOL,PRACTITIONER APPS,MLOps End-to-End,Aible,https://www.aible.com/
+TOOL,PRACTITIONER APPS,MLOps End-to-End,Baseten,https://www.baseten.co/
+TOOL,PRACTITIONER APPS,MLOps End-to-End,Bentoml,https://www.bentoml.com/
+TOOL,PRACTITIONER APPS,MLOps End-to-End,Cnvrg,https://cnvrg.io/
+TOOL,PRACTITIONER APPS,MLOps End-to-End,Comet,https://www.comet.com/site/
+TOOL,PRACTITIONER APPS,MLOps End-to-End,DVC,https://dvc.org/doc/studio
+TOOL,PRACTITIONER APPS,MLOps End-to-End,Dagshub,https://dagshub.com/
+TOOL,PRACTITIONER APPS,MLOps End-to-End,Dataiku,https://www.dataiku.com/
+TOOL,PRACTITIONER APPS,MLOps End-to-End,Dotdata,https://dotdata.com/
+TOOL,PRACTITIONER APPS,MLOps End-to-End,Feast,https://feast.dev/
+TOOL,PRACTITIONER APPS,MLOps End-to-End,Graft,https://www.graft.com/
+TOOL,PRACTITIONER APPS,MLOps End-to-End,Hopsworks,https://www.hopsworks.ai/
+TOOL,PRACTITIONER APPS,MLOps End-to-End,Hugging Face,https://huggingface.co/
+TOOL,PRACTITIONER APPS,MLOps End-to-End,Kubeflow,https://www.kubeflow.org/
+TOOL,PRACTITIONER APPS,MLOps End-to-End,MLflow,https://mlflow.org/
+TOOL,PRACTITIONER APPS,MLOps End-to-End,Metaflow,https://metaflow.org/
+TOOL,PRACTITIONER APPS,MLOps End-to-End,Microsoft,https://azure.microsoft.com/en-us/products/machine-learning/
+TOOL,PRACTITIONER APPS,MLOps End-to-End,Neptune,https://neptune.ai/
+TOOL,PRACTITIONER APPS,MLOps End-to-End,Qwak,https://www.qwak.com/
+TOOL,PRACTITIONER APPS,MLOps End-to-End,Saturncloud,https://saturncloud.io/
+TOOL,PRACTITIONER APPS,MLOps End-to-End,Seldon,https://www.seldon.io/
+TOOL,PRACTITIONER APPS,MLOps End-to-End,Tecton,https://www.tecton.ai/
+TOOL,PRACTITIONER APPS,MLOps End-to-End,Uber,https://eng.uber.com/michelangelo-machine-learning-platform/
+TOOL,PRACTITIONER APPS,MLOps End-to-End,Wallaroo,https://www.wallaroo.ai/
+TOOL,PRACTITIONER APPS,MLOps End-to-End,Wandb,https://wandb.ai/site
+GOAL,PRACTITIONER APPS,Data Centric AI/ML,,
+TOOL,PRACTITIONER APPS,Data Centric AI/ML,Alectio,https://alectio.com/
+TOOL,PRACTITIONER APPS,Data Centric AI/ML,Apache Hudi,https://hudi.apache.org/
+TOOL,PRACTITIONER APPS,Data Centric AI/ML,Dataloop,https://dataloop.ai/
+TOOL,PRACTITIONER APPS,Data Centric AI/ML,Dvid,https://dvid.io/
+TOOL,PRACTITIONER APPS,Data Centric AI/ML,Graviti,https://www.graviti.com/
+TOOL,PRACTITIONER APPS,Data Centric AI/ML,Labelbox,https://labelbox.com/
+TOOL,PRACTITIONER APPS,Data Centric AI/ML,Pachyderm,https://www.pachyderm.com/
+TOOL,PRACTITIONER APPS,Data Centric AI/ML,Scale,https://scale.com/
+TOOL,PRACTITIONER APPS,Data Centric AI/ML,Snorkel,https://www.snorkel.org/
+TOOL,PRACTITIONER APPS,Data Centric AI/ML,Tasq,https://www.tasq.ai/
+TOOL,PRACTITIONER APPS,Data Centric AI/ML,Toloka,https://toloka.ai/
+TOOL,PRACTITIONER APPS,Data Centric AI/ML,V7labs,https://www.v7labs.com/
+TOOL,PRACTITIONER APPS,Data Centric AI/ML,Voxel51,https://docs.voxel51.com/
+TOOL,PRACTITIONER APPS,Data Centric AI/ML,dstack,https://dstack.ai/docs/
+GOAL,PRACTITIONER APPS,ML/AI Observability & Monitoring,,
+TOOL,PRACTITIONER APPS,ML/AI Observability & Monitoring,Aporia,https://www.aporia.com/
+TOOL,PRACTITIONER APPS,ML/AI Observability & Monitoring,Arthur,https://www.arthur.ai/
+TOOL,PRACTITIONER APPS,ML/AI Observability & Monitoring,Braintrustdata,https://www.braintrustdata.com/
+TOOL,PRACTITIONER APPS,ML/AI Observability & Monitoring,Censius,https://censius.ai/
+TOOL,PRACTITIONER APPS,ML/AI Observability & Monitoring,Distributional,https://distributional.com/
+TOOL,PRACTITIONER APPS,ML/AI Observability & Monitoring,Evidentlyai,https://www.evidentlyai.com/
+TOOL,PRACTITIONER APPS,ML/AI Observability & Monitoring,Fiddler,https://www.fiddler.ai/
+TOOL,PRACTITIONER APPS,ML/AI Observability & Monitoring,Giskard,https://www.giskard.ai/
+TOOL,PRACTITIONER APPS,ML/AI Observability & Monitoring,Howso,https://www.howso.com/
+TOOL,PRACTITIONER APPS,ML/AI Observability & Monitoring,Hydrosphere,https://hydrosphere.io/
+TOOL,PRACTITIONER APPS,ML/AI Observability & Monitoring,Latticeflow,https://latticeflow.ai/
+TOOL,PRACTITIONER APPS,ML/AI Observability & Monitoring,Monalabs,https://www.monalabs.io/
+TOOL,PRACTITIONER APPS,ML/AI Observability & Monitoring,Patronus,https://www.patronus.ai/
+TOOL,PRACTITIONER APPS,ML/AI Observability & Monitoring,Rungalileo,https://www.rungalileo.io/
+TOOL,PRACTITIONER APPS,ML/AI Observability & Monitoring,Superwise,https://superwise.ai/
+TOOL,PRACTITIONER APPS,ML/AI Observability & Monitoring,Whylabs,https://whylabs.ai/
+GOAL,PRACTITIONER APPS,Vector DBs,,
+TOOL,PRACTITIONER APPS,Vector DBs,Apache,https://cassandra.apache.org/_/index.html
+TOOL,PRACTITIONER APPS,Vector DBs,Chroma,https://www.trychroma.com/
+TOOL,PRACTITIONER APPS,Vector DBs,Deeplake,https://www.deeplake.ai/
+TOOL,PRACTITIONER APPS,Vector DBs,Elastic,https://www.elastic.co/what-is/vector-search
+TOOL,PRACTITIONER APPS,Vector DBs,Github,https://github.com/pgvector/pgvector
+TOOL,PRACTITIONER APPS,Vector DBs,Kx,https://kx.com/
+TOOL,PRACTITIONER APPS,Vector DBs,Marqo,https://www.marqo.ai/
+TOOL,PRACTITIONER APPS,Vector DBs,Milvus,https://milvus.io/
+TOOL,PRACTITIONER APPS,Vector DBs,Mongodb,https://www.mongodb.com/
+TOOL,PRACTITIONER APPS,Vector DBs,Opensearch,https://opensearch.org/
+TOOL,PRACTITIONER APPS,Vector DBs,Vdaas,https://vald.vdaas.org/
+TOOL,PRACTITIONER APPS,Vector DBs,Vespa,https://vespa.ai/
+TOOL,PRACTITIONER APPS,Vector DBs,Weaviate,https://weaviate.io/
+TOOL,PRACTITIONER APPS,Vector DBs,Zilliz,https://zilliz.com/cloud
+GOAL,PRACTITIONER APPS,Analytics Workflows,,
+TOOL,PRACTITIONER APPS,Analytics Workflows,Cocalc,https://cocalc.com/
+TOOL,PRACTITIONER APPS,Analytics Workflows,Colab,https://colab.google/
+TOOL,PRACTITIONER APPS,Analytics Workflows,Count,https://count.co/
+TOOL,PRACTITIONER APPS,Analytics Workflows,Deepnote,https://deepnote.com/
+TOOL,PRACTITIONER APPS,Analytics Workflows,Hex,https://hex.tech/
+TOOL,PRACTITIONER APPS,Analytics Workflows,Jetbrains,https://www.jetbrains.com/datalore/
+TOOL,PRACTITIONER APPS,Analytics Workflows,Notebooks,https://www.databricks.com/product/collaborative-notebooks
+TOOL,PRACTITIONER APPS,Analytics Workflows,Nteract,https://nteract.io/
+TOOL,PRACTITIONER APPS,Analytics Workflows,Querybook,https://www.querybook.org/
+GOAL,PRACTITIONER APPS,,,
+TOOL,PRACTITIONER APPS,,» Explore the table,https://airtable.com/appIdXUdVqXruXQ3d/shrjlNRd3ON0cMF9y
+DOMAIN,GOVERNANCE,,,
+GOAL,GOVERNANCE,Data Catalog / Governance,,
+TOOL,GOVERNANCE,Data Catalog / Governance,Acryldata,https://www.acryldata.io/
+TOOL,GOVERNANCE,Data Catalog / Governance,Alation,https://www.alation.com/
+TOOL,GOVERNANCE,Data Catalog / Governance,Amazon SageMaker,https://aws.amazon.com/sagemaker/
+TOOL,GOVERNANCE,Data Catalog / Governance,Amundsen,https://www.amundsen.io/
+TOOL,GOVERNANCE,Data Catalog / Governance,Apache,https://atlas.apache.org/#/
+TOOL,GOVERNANCE,Data Catalog / Governance,Arize,https://arize.com/
+TOOL,GOVERNANCE,Data Catalog / Governance,Atlan,https://atlan.com/
+TOOL,GOVERNANCE,Data Catalog / Governance,Bigid,https://bigid.com/
+TOOL,GOVERNANCE,Data Catalog / Governance,Boomi,https://boomi.com/platform/master-data-hub/#/706e6e/home
+TOOL,GOVERNANCE,Data Catalog / Governance,Ckan,https://ckan.org/
+TOOL,GOVERNANCE,Data Catalog / Governance,Clear,https://clear.ml/
+TOOL,GOVERNANCE,Data Catalog / Governance,Collibra,https://www.collibra.com/us/en
+TOOL,GOVERNANCE,Data Catalog / Governance,Data,https://data.world/
+TOOL,GOVERNANCE,Data Catalog / Governance,Datalad,https://www.datalad.org/
+TOOL,GOVERNANCE,Data Catalog / Governance,Datarobot,https://www.datarobot.com/
+TOOL,GOVERNANCE,Data Catalog / Governance,Deeplake,https://www.deeplake.ai/
+TOOL,GOVERNANCE,Data Catalog / Governance,Domino,https://domino.ai/
+TOOL,GOVERNANCE,Data Catalog / Governance,Fb,https://engineering.fb.com/2020/10/09/data-infrastructure/nemo/
+TOOL,GOVERNANCE,Data Catalog / Governance,Firsteigen,https://firsteigen.com/
+TOOL,GOVERNANCE,Data Catalog / Governance,Github,https://github.com/facebookresearch/faiss
+TOOL,GOVERNANCE,Data Catalog / Governance,Google Cloud Dataproc,https://cloud.google.com/dataproc-metastore/docs/overview
+TOOL,GOVERNANCE,Data Catalog / Governance,Gretel,https://gretel.ai/
+TOOL,GOVERNANCE,Data Catalog / Governance,Honeyhive,https://www.honeyhive.ai/
+TOOL,GOVERNANCE,Data Catalog / Governance,Ibm,https://www.ibm.com/products/knowledge-catalog
+TOOL,GOVERNANCE,Data Catalog / Governance,Iguazio,http://www.iguazio.com/
+TOOL,GOVERNANCE,Data Catalog / Governance,Immuta,https://www.immuta.com/
+TOOL,GOVERNANCE,Data Catalog / Governance,Magda,https://magda.io/
+TOOL,GOVERNANCE,Data Catalog / Governance,Marquezproject,https://marquezproject.ai/
+TOOL,GOVERNANCE,Data Catalog / Governance,Nannyml,https://www.nannyml.com/
+TOOL,GOVERNANCE,Data Catalog / Governance,OpenMetadata,https://open-metadata.org/
+TOOL,GOVERNANCE,Data Catalog / Governance,Opendatadiscovery,https://opendatadiscovery.org/
+TOOL,GOVERNANCE,Data Catalog / Governance,Raito,https://www.raito.io/
+TOOL,GOVERNANCE,Data Catalog / Governance,Satoricyber,https://satoricyber.com/
+TOOL,GOVERNANCE,Data Catalog / Governance,Tigrisdata,https://www.tigrisdata.com/
+TOOL,GOVERNANCE,Data Catalog / Governance,Valohai,https://valohai.com/
+TOOL,GOVERNANCE,Data Catalog / Governance,Ydata,https://ydata.ai/
+TOOL,GOVERNANCE,Data Catalog / Governance,Zeenea,https://zeenea.com/
+TOOL,GOVERNANCE,Data Catalog / Governance,Zenml,https://zenml.io/
+GOAL,GOVERNANCE,Analytics Workflows,,
+TOOL,GOVERNANCE,Analytics Workflows,Datastrato,https://datastrato.ai/gravitino/
+TOOL,GOVERNANCE,Analytics Workflows,Delta Live Tables,https://www.databricks.com/product/delta-live-tables
+TOOL,GOVERNANCE,Analytics Workflows,Google,https://cloud.google.com/dataform
+TOOL,GOVERNANCE,Analytics Workflows,Selectstar,https://www.selectstar.com/
+GOAL,GOVERNANCE,,,
+TOOL,GOVERNANCE,,lakeFS,https://lakefs.io/

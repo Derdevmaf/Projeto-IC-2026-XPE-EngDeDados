@@ -1,4 +1,4 @@
-﻿"""
+"""
 extract_tools.py
 ================
 Extrai a tabela de ferramentas do PDF "2025 State of Data and AI Engineering by lakeFS"
@@ -20,8 +20,8 @@ import pandas as pd
 from urllib.parse import urlparse
 
 PDF_PATH      = "2025 State of Data and AI Engineering by lakeFS.pdf"
-CSV_TOOLS     = "tools.csv"
-CSV_HIERARCHY = "tools_hierarchy.csv"
+CSV_TOOLS     = "tools_temp.csv"
+CSV_HIERARCHY = "tools_hierarchy_temp.csv"
 
 # Cores do PDF
 COLOR_DOMAIN = 0xffffff   # branco  -> DOMAIN
@@ -331,11 +331,15 @@ def merge_multiline(items):
 
 def classify_spans(spans):
     domains, goals = [], []
+    valid_domains = {d.lower() for d in DOMAIN_ORDER}
+    valid_goals = {g.lower() for glist in GOAL_ORDER.values() for g in glist}
     for s in spans:
         if s["text"] in IGNORE_AS_DOMAIN: continue
-        if s["color"] == COLOR_DOMAIN and s["size"] >= SIZE_HEADER:
+        is_domain = (s["color"] == COLOR_DOMAIN and s["size"] >= SIZE_HEADER) or s["text"].lower() in valid_domains
+        is_goal = (s["color"] == COLOR_GOAL and s["size"] >= SIZE_HEADER) or s["text"].lower() in valid_goals
+        if is_domain:
             domains.append(s)
-        elif s["color"] == COLOR_GOAL and s["size"] >= SIZE_HEADER:
+        elif is_goal:
             goals.append(s)
     return domains, goals
 

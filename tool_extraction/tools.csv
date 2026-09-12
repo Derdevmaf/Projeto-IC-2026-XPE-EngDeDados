@@ -50,78 +50,77 @@ COMPUTE ENGINES,Distributed Compute,MapReduce,https://hadoop.apache.org/docs/r1.
 COMPUTE ENGINES,Distributed Compute,Microsoft,https://azure.microsoft.com/en-us/services/databricks/
 COMPUTE ENGINES,Distributed Compute,Ray,https://www.ray.io/
 COMPUTE ENGINES,Distributed Compute,Trino,https://trino.io/
-DATA LAKE,Metastores,Apache HDFS,https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html
-DATA LAKE,Metastores,Cloudfiles,https://www.cloudfiles.io/
-DATA LAKE,Metastores,Cloudflare R2,https://www.cloudflare.com/developer-platform/r2/
-DATA LAKE,Metastores,DigitalOcean Spaces,https://www.digitalocean.com/products/spaces/
-DATA LAKE,Metastores,MinIO,https://min.io/
-DATA LAKE,Metastores,Storj,https://www.storj.io/
-DATA LAKE,Metastores,Wasabi,https://wasabi.com/
-DATA LAKE,Metastores,Zadara,https://www.zadara.com/
 DATA LAKE,Object Storage,Alibaba Cloud OSS,https://www.alibabacloud.com/product/oss
 DATA LAKE,Object Storage,Amazon S3,https://aws.amazon.com/s3/
+DATA LAKE,Object Storage,Apache HDFS,https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html
 DATA LAKE,Object Storage,Azure Blob Storage,https://azure.microsoft.com/products/storage/blobs/
+DATA LAKE,Object Storage,Backblaze,https://www.backblaze.com/cloud-storage
+DATA LAKE,Object Storage,Ceph,https://ceph.io/ceph-storage/object-storage/
+DATA LAKE,Object Storage,Cloudfiles,https://www.cloudfiles.io/
+DATA LAKE,Object Storage,Cloudflare R2,https://www.cloudflare.com/developer-platform/r2/
+DATA LAKE,Object Storage,DigitalOcean Spaces,https://www.digitalocean.com/products/spaces/
 DATA LAKE,Object Storage,G C,https://cloud.google.com/pubsub
 DATA LAKE,Object Storage,Google Cloud Storage,https://cloud.google.com/storage
 DATA LAKE,Object Storage,IBM Cloud Object Storage,https://www.ibm.com/cloud/storage
+DATA LAKE,Object Storage,Idrive,https://www.idrive.com/
+DATA LAKE,Object Storage,MinIO,https://min.io/
+DATA LAKE,Object Storage,NetApp StorageGRID,https://www.netapp.com/data-storage/storagegrid/
 DATA LAKE,Object Storage,Oracle Cloud Storage,https://www.oracle.com/cloud/storage/
-DATA LAKE,Open Table Formats,Backblaze,https://www.backblaze.com/cloud-storage
-DATA LAKE,Open Table Formats,Ceph,https://ceph.io/ceph-storage/object-storage/
-DATA LAKE,Open Table Formats,Idrive,https://www.idrive.com/
-DATA LAKE,Open Table Formats,NetApp StorageGRID,https://www.netapp.com/data-storage/storagegrid/
-DATA LAKE,Open Table Formats,Pure Storage,https://www.purestorage.com/
-DATA LAKE,Open Table Formats,VAST Data,https://vastdata.com/
-DATA VERSION CONTROL,Object Storage,DVC,https://dvc.org/
-DATA VERSION CONTROL,Object Storage,Git-lfs,https://git-lfs.com/
-DATA VERSION CONTROL,Object Storage,Oxen,https://www.oxen.ai/
-DATA VERSION CONTROL,Object Storage,Pachyderm,https://www.pachyderm.com/
-DATA VERSION CONTROL,Object Storage,Projectnessie,https://projectnessie.org/
-DATA VERSION CONTROL,Object Storage,Quilt,https://www.quilt.bio/
-DATA VERSION CONTROL,Object Storage,Underhive,https://underhive.ai/
-DATA VERSION CONTROL,Object Storage,lakeFS,https://lakefs.io/
-GOVERNANCE,,lakeFS,https://lakefs.io/
-GOVERNANCE,Analytics Workflows,Datastrato,https://datastrato.ai/gravitino/
-GOVERNANCE,Analytics Workflows,Delta Live Tables,https://www.databricks.com/product/delta-live-tables
-GOVERNANCE,Analytics Workflows,Google,https://cloud.google.com/dataform
-GOVERNANCE,Analytics Workflows,Selectstar,https://www.selectstar.com/
-GOVERNANCE,Data Catalog /,Acryldata,https://www.acryldata.io/
-GOVERNANCE,Data Catalog /,Alation,https://www.alation.com/
-GOVERNANCE,Data Catalog /,Amazon SageMaker,https://aws.amazon.com/sagemaker/
-GOVERNANCE,Data Catalog /,Amundsen,https://www.amundsen.io/
-GOVERNANCE,Data Catalog /,Apache,https://atlas.apache.org/#/
-GOVERNANCE,Data Catalog /,Arize,https://arize.com/
-GOVERNANCE,Data Catalog /,Atlan,https://atlan.com/
-GOVERNANCE,Data Catalog /,Bigid,https://bigid.com/
-GOVERNANCE,Data Catalog /,Boomi,https://boomi.com/platform/master-data-hub/#/706e6e/home
-GOVERNANCE,Data Catalog /,Ckan,https://ckan.org/
-GOVERNANCE,Data Catalog /,Clear,https://clear.ml/
-GOVERNANCE,Data Catalog /,Collibra,https://www.collibra.com/us/en
-GOVERNANCE,Data Catalog /,Data,https://data.world/
-GOVERNANCE,Data Catalog /,Datalad,https://www.datalad.org/
-GOVERNANCE,Data Catalog /,Datarobot,https://www.datarobot.com/
-GOVERNANCE,Data Catalog /,Deeplake,https://www.deeplake.ai/
-GOVERNANCE,Data Catalog /,Domino,https://domino.ai/
-GOVERNANCE,Data Catalog /,Fb,https://engineering.fb.com/2020/10/09/data-infrastructure/nemo/
-GOVERNANCE,Data Catalog /,Firsteigen,https://firsteigen.com/
-GOVERNANCE,Data Catalog /,Github,https://github.com/facebookresearch/faiss
-GOVERNANCE,Data Catalog /,Google Cloud Dataproc,https://cloud.google.com/dataproc-metastore/docs/overview
-GOVERNANCE,Data Catalog /,Gretel,https://gretel.ai/
-GOVERNANCE,Data Catalog /,Honeyhive,https://www.honeyhive.ai/
-GOVERNANCE,Data Catalog /,Ibm,https://www.ibm.com/products/knowledge-catalog
-GOVERNANCE,Data Catalog /,Iguazio,http://www.iguazio.com/
-GOVERNANCE,Data Catalog /,Immuta,https://www.immuta.com/
-GOVERNANCE,Data Catalog /,Magda,https://magda.io/
-GOVERNANCE,Data Catalog /,Marquezproject,https://marquezproject.ai/
-GOVERNANCE,Data Catalog /,Nannyml,https://www.nannyml.com/
-GOVERNANCE,Data Catalog /,OpenMetadata,https://open-metadata.org/
-GOVERNANCE,Data Catalog /,Opendatadiscovery,https://opendatadiscovery.org/
-GOVERNANCE,Data Catalog /,Raito,https://www.raito.io/
-GOVERNANCE,Data Catalog /,Satoricyber,https://satoricyber.com/
-GOVERNANCE,Data Catalog /,Tigrisdata,https://www.tigrisdata.com/
-GOVERNANCE,Data Catalog /,Valohai,https://valohai.com/
-GOVERNANCE,Data Catalog /,Ydata,https://ydata.ai/
-GOVERNANCE,Data Catalog /,Zeenea,https://zeenea.com/
-GOVERNANCE,Data Catalog /,Zenml,https://zenml.io/
+DATA LAKE,Object Storage,Pure Storage,https://www.purestorage.com/
+DATA LAKE,Object Storage,Storj,https://www.storj.io/
+DATA LAKE,Object Storage,VAST Data,https://vastdata.com/
+DATA LAKE,Object Storage,Wasabi,https://wasabi.com/
+DATA LAKE,Object Storage,Zadara,https://www.zadara.com/
+DATA VERSION CONTROL,,DVC,https://dvc.org/
+DATA VERSION CONTROL,,Git-lfs,https://git-lfs.com/
+DATA VERSION CONTROL,,Oxen,https://www.oxen.ai/
+DATA VERSION CONTROL,,Pachyderm,https://www.pachyderm.com/
+DATA VERSION CONTROL,,Projectnessie,https://projectnessie.org/
+DATA VERSION CONTROL,,Quilt,https://www.quilt.bio/
+DATA VERSION CONTROL,,Underhive,https://underhive.ai/
+DATA VERSION CONTROL,,lakeFS,https://lakefs.io/
+GOVERNANCE,Data Catalog / Governance,Acryldata,https://www.acryldata.io/
+GOVERNANCE,Data Catalog / Governance,Alation,https://www.alation.com/
+GOVERNANCE,Data Catalog / Governance,Amazon SageMaker,https://aws.amazon.com/sagemaker/
+GOVERNANCE,Data Catalog / Governance,Amundsen,https://www.amundsen.io/
+GOVERNANCE,Data Catalog / Governance,Apache,https://atlas.apache.org/#/
+GOVERNANCE,Data Catalog / Governance,Arize,https://arize.com/
+GOVERNANCE,Data Catalog / Governance,Atlan,https://atlan.com/
+GOVERNANCE,Data Catalog / Governance,Bigid,https://bigid.com/
+GOVERNANCE,Data Catalog / Governance,Boomi,https://boomi.com/platform/master-data-hub/#/706e6e/home
+GOVERNANCE,Data Catalog / Governance,Ckan,https://ckan.org/
+GOVERNANCE,Data Catalog / Governance,Clear,https://clear.ml/
+GOVERNANCE,Data Catalog / Governance,Collibra,https://www.collibra.com/us/en
+GOVERNANCE,Data Catalog / Governance,Data,https://data.world/
+GOVERNANCE,Data Catalog / Governance,Datalad,https://www.datalad.org/
+GOVERNANCE,Data Catalog / Governance,Datarobot,https://www.datarobot.com/
+GOVERNANCE,Data Catalog / Governance,Datastrato,https://datastrato.ai/gravitino/
+GOVERNANCE,Data Catalog / Governance,Deeplake,https://www.deeplake.ai/
+GOVERNANCE,Data Catalog / Governance,Delta Live Tables,https://www.databricks.com/product/delta-live-tables
+GOVERNANCE,Data Catalog / Governance,Domino,https://domino.ai/
+GOVERNANCE,Data Catalog / Governance,Fb,https://engineering.fb.com/2020/10/09/data-infrastructure/nemo/
+GOVERNANCE,Data Catalog / Governance,Firsteigen,https://firsteigen.com/
+GOVERNANCE,Data Catalog / Governance,Github,https://github.com/facebookresearch/faiss
+GOVERNANCE,Data Catalog / Governance,Google,https://cloud.google.com/dataform
+GOVERNANCE,Data Catalog / Governance,Google Cloud Dataproc,https://cloud.google.com/dataproc-metastore/docs/overview
+GOVERNANCE,Data Catalog / Governance,Gretel,https://gretel.ai/
+GOVERNANCE,Data Catalog / Governance,Honeyhive,https://www.honeyhive.ai/
+GOVERNANCE,Data Catalog / Governance,Ibm,https://www.ibm.com/products/knowledge-catalog
+GOVERNANCE,Data Catalog / Governance,Iguazio,http://www.iguazio.com/
+GOVERNANCE,Data Catalog / Governance,Immuta,https://www.immuta.com/
+GOVERNANCE,Data Catalog / Governance,Magda,https://magda.io/
+GOVERNANCE,Data Catalog / Governance,Marquezproject,https://marquezproject.ai/
+GOVERNANCE,Data Catalog / Governance,Nannyml,https://www.nannyml.com/
+GOVERNANCE,Data Catalog / Governance,OpenMetadata,https://open-metadata.org/
+GOVERNANCE,Data Catalog / Governance,Opendatadiscovery,https://opendatadiscovery.org/
+GOVERNANCE,Data Catalog / Governance,Raito,https://www.raito.io/
+GOVERNANCE,Data Catalog / Governance,Satoricyber,https://satoricyber.com/
+GOVERNANCE,Data Catalog / Governance,Selectstar,https://www.selectstar.com/
+GOVERNANCE,Data Catalog / Governance,Tigrisdata,https://www.tigrisdata.com/
+GOVERNANCE,Data Catalog / Governance,Valohai,https://valohai.com/
+GOVERNANCE,Data Catalog / Governance,Ydata,https://ydata.ai/
+GOVERNANCE,Data Catalog / Governance,Zeenea,https://zeenea.com/
+GOVERNANCE,Data Catalog / Governance,Zenml,https://zenml.io/
 INGEST,Ingest SaaS,Airbyte,https://airbyte.com/
 INGEST,Ingest SaaS,Dataddo,https://www.dataddo.com/
 INGEST,Ingest SaaS,Estuary,https://estuary.dev/
@@ -197,6 +196,7 @@ PIPELINES,Data Quality / Observability,Apache Zeppelin,https://zeppelin.apache.o
 PIPELINES,Data Quality / Observability,Bigeye,https://www.bigeye.com/
 PIPELINES,Data Quality / Observability,ClickHouse,https://clickhouse.com/use-cases/machine-learning-and-data-science
 PIPELINES,Data Quality / Observability,Cloudbank,https://www.cloudbank.org/tool/azure-notebooks
+PIPELINES,Data Quality / Observability,Databricks,https://www.databricks.com/product/data-intelligence-platform
 PIPELINES,Data Quality / Observability,Datachain,https://datachain.ai/
 PIPELINES,Data Quality / Observability,Datafold,https://www.datafold.com/
 PIPELINES,Data Quality / Observability,Datorios,https://datorios.com/
@@ -223,34 +223,32 @@ PIPELINES,Data Quality / Observability,Truera,https://truera.com/
 PIPELINES,Data Quality / Observability,Union,https://www.union.ai/pandera
 PIPELINES,Data Quality / Observability,Unraveldata,https://www.unraveldata.com/
 PIPELINES,Data Quality / Observability,Whylabs,https://whylabs.ai/
-PIPELINES,Distributed Compute,Abacus,https://abacus.ai/
-PIPELINES,Distributed Compute,Apache,https://oozie.apache.org/
-PIPELINES,Distributed Compute,Apache Airflow,https://airflow.apache.org/
-PIPELINES,Distributed Compute,Astronomer,https://www.astronomer.io/
-PIPELINES,Distributed Compute,Dagster,https://dagster.io/
-PIPELINES,Distributed Compute,Dagworks,https://www.dagworks.io/
-PIPELINES,Distributed Compute,Databricks,https://www.databricks.com/product/data-intelligence-platform
-PIPELINES,Distributed Compute,Flyte,http://www.flyte.org
-PIPELINES,Distributed Compute,Github,https://github.com/spotify/luigi
-PIPELINES,Distributed Compute,Google,https://cloud.google.com/workflows?hl=en
-PIPELINES,Distributed Compute,Google Vertex AI,https://cloud.google.com/vertex-ai
-PIPELINES,Distributed Compute,H2o,https://h2o.ai/
-PIPELINES,Distributed Compute,Kedro,https://kedro.org/
-PIPELINES,Distributed Compute,Kestra,https://kestra.io/
-PIPELINES,Distributed Compute,Kubeflow,https://www.kubeflow.org/docs/components/pipelines/
-PIPELINES,Distributed Compute,Mage,https://www.mage.ai/
-PIPELINES,Distributed Compute,Metaflow,https://metaflow.org/
-PIPELINES,Distributed Compute,Microsoft,https://azure.microsoft.com/en-us/products/data-factory
-PIPELINES,Distributed Compute,Mltwist,http://www.mltwist.com
-PIPELINES,Distributed Compute,Modular,https://www.modular.com/
-PIPELINES,Distributed Compute,Orkes,https://www.orkes.io/
-PIPELINES,Distributed Compute,Prefect,https://www.prefect.io/
-PIPELINES,Distributed Compute,Sematic,https://www.sematic.dev/
-PIPELINES,Distributed Compute,Seqera,https://seqera.io/
-PIPELINES,Distributed Compute,Shipyard,https://www.shipyardapp.com/
-PIPELINES,Distributed Compute,Stitch,https://www.stitchdata.com/
-PIPELINES,Distributed Compute,Union,https://www.union.ai/
-PRACTITIONER APPS,,» Explore the table,https://airtable.com/appIdXUdVqXruXQ3d/shrjlNRd3ON0cMF9y
+PIPELINES,Orchestration,Abacus,https://abacus.ai/
+PIPELINES,Orchestration,Apache,https://oozie.apache.org/
+PIPELINES,Orchestration,Apache Airflow,https://airflow.apache.org/
+PIPELINES,Orchestration,Astronomer,https://www.astronomer.io/
+PIPELINES,Orchestration,Dagster,https://dagster.io/
+PIPELINES,Orchestration,Dagworks,https://www.dagworks.io/
+PIPELINES,Orchestration,Flyte,http://www.flyte.org
+PIPELINES,Orchestration,Github,https://github.com/spotify/luigi
+PIPELINES,Orchestration,Google,https://cloud.google.com/workflows?hl=en
+PIPELINES,Orchestration,Google Vertex AI,https://cloud.google.com/vertex-ai
+PIPELINES,Orchestration,H2o,https://h2o.ai/
+PIPELINES,Orchestration,Kedro,https://kedro.org/
+PIPELINES,Orchestration,Kestra,https://kestra.io/
+PIPELINES,Orchestration,Kubeflow,https://www.kubeflow.org/docs/components/pipelines/
+PIPELINES,Orchestration,Mage,https://www.mage.ai/
+PIPELINES,Orchestration,Metaflow,https://metaflow.org/
+PIPELINES,Orchestration,Microsoft,https://azure.microsoft.com/en-us/products/data-factory
+PIPELINES,Orchestration,Mltwist,http://www.mltwist.com
+PIPELINES,Orchestration,Modular,https://www.modular.com/
+PIPELINES,Orchestration,Orkes,https://www.orkes.io/
+PIPELINES,Orchestration,Prefect,https://www.prefect.io/
+PIPELINES,Orchestration,Sematic,https://www.sematic.dev/
+PIPELINES,Orchestration,Seqera,https://seqera.io/
+PIPELINES,Orchestration,Shipyard,https://www.shipyardapp.com/
+PIPELINES,Orchestration,Stitch,https://www.stitchdata.com/
+PIPELINES,Orchestration,Union,https://www.union.ai/
 PRACTITIONER APPS,Analytics Workflows,Cocalc,https://cocalc.com/
 PRACTITIONER APPS,Analytics Workflows,Count,https://count.co/
 PRACTITIONER APPS,Analytics Workflows,Deepnote,https://deepnote.com/

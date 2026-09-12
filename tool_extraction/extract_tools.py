@@ -335,7 +335,7 @@ def classify_spans(spans):
     valid_goals = {g.lower() for glist in GOAL_ORDER.values() for g in glist}
     for s in spans:
         if s["text"] in IGNORE_AS_DOMAIN: continue
-        is_domain = (s["color"] == COLOR_DOMAIN and s["size"] >= SIZE_HEADER) or s["text"].lower() in valid_domains
+        is_domain = (s["color"] == COLOR_DOMAIN and s["size"] >= SIZE_HEADER) or (s["text"].lower() in valid_domains and s["color"] == COLOR_DOMAIN)
         is_goal = (s["color"] == COLOR_GOAL and s["size"] >= SIZE_HEADER) or s["text"].lower() in valid_goals
         if is_domain:
             domains.append(s)
@@ -345,35 +345,23 @@ def classify_spans(spans):
 
 
 def find_goal_for_point(cx, cy, goals):
-    """
-    Encontra o GOAL mais proximo ACIMA do ponto dentro da mesma faixa X de coluna.
-    A faixa X de coluna do ponto e calculada por find_domain_for_point (COLUMN_RULES).
-    """
-    # Determina a faixa x da coluna
-    col_x0, col_x1 = 0, 9999
-    for x_min, x_max, _ in COLUMN_RULES:
-        if x_min <= cx < x_max:
-            col_x0, col_x1 = x_min, x_max
-            break
-
+    domain = find_domain_for_point(cx, cy)
+    valid_goals_for_domain = GOAL_ORDER.get(domain, [])
+    
     candidates = []
     for g in goals:
-        # O goal deve estar na mesma coluna ou interceptar
-        g_in_col = not (g["x1"] < col_x0 - 40 or g["x0"] > col_x1 + 40)
-        above    = g["cy"] <= cy + 10
-        if g_in_col and above:
-            candidates.append((cy - g["cy"], g["text"]))
-
+        # Fix the Data Catalog / Governance text if it was truncated
+        g_text = "Data Catalog / Governance" if g["text"] == "Data Catalog /" else g["text"]
+        
+        if g_text in valid_goals_for_domain:
+            above = g["cy"] <= cy + 15
+            if above:
+                candidates.append((cy - g["cy"], g_text))
+                
     if candidates:
         candidates.sort()
         return candidates[0][1]
-
-    # Fallback: goal mais proximo sem restricao de coluna
-    fallback = [(abs(cx - g["cx"]) + abs(cy - g["cy"]) * 0.3, g["text"])
-                for g in goals if g["cy"] <= cy + 10]
-    if fallback:
-        fallback.sort()
-        return fallback[0][1]
+    
     return ""
 
 
@@ -449,7 +437,7 @@ def main():
             if mapped is None: continue   # link decorativo
             tool_name = mapped
 
-        if not tool_name or tool_name.lower() in IGNORE_AS_TOOL:
+        if not tool_name or tool_name.lower() in IGNORE_AS_TOOL or "explore the table" in tool_name.lower():
             continue
 
         domain = find_domain_for_point(cx, cy)
@@ -461,6 +449,7 @@ def main():
 
     df_tools = pd.DataFrame(rows, columns=["domain", "goal", "tool", "url"])
     df_tools = df_tools[~df_tools["tool"].str.lower().isin(IGNORE_AS_TOOL)]
+    df_tools = df_tools[(df_tools["goal"] != "") | (df_tools["domain"] == "DATA VERSION CONTROL")]
     df_tools.drop_duplicates(subset=["domain", "goal", "tool"], inplace=True)
     df_tools.sort_values(["domain", "goal", "tool"], inplace=True)
     df_tools.reset_index(drop=True, inplace=True)
